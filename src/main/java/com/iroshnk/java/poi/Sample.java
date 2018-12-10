@@ -11,7 +11,7 @@ import java.util.Iterator;
 public class Sample {
     public static void main(String[] args) throws IOException, InvalidFormatException {
         //final String SAMPLE_XLSX_FILE_PATH = "D:\\Learning\\java_8\\example\\src\\main\\java\\com\\iroshnk\\java\\poi\\sample-xlsx-file.xlsx";
-        final String SAMPLE_XLSX_FILE_PATH = "D:\\Learning\\java_8\\example\\src\\main\\java\\com\\iroshnk\\java\\poi\\product.xlsx";
+        final String SAMPLE_XLSX_FILE_PATH = "D:\\Learning\\GIT_HUB\\rnd\\src\\main\\java\\com\\iroshnk\\java\\poi\\product.xlsx";
 
         Workbook workbook = WorkbookFactory.create(new File(SAMPLE_XLSX_FILE_PATH));
 
@@ -43,7 +43,9 @@ public class Sample {
             document.append("sss",12);
             //System.out.println(document.toString());
             System.out.println(document.getString("vatExempted"));
-            System.out.println(document.getInteger("sss"));
+            System.out.println(document.getBoolean("vatExempted"));
+
+            //System.out.println(document.getInteger("sss"));
         }
 
 
