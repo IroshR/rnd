@@ -1,5 +1,14 @@
 [
   {
+    "symbol": "SLRs",
+    "name": "Sri Lankan Rupee",
+    "symbol_native": "SL Re",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "LKR",
+    "name_plural": "Sri Lankan rupees"
+  },
+  {
     "symbol": "$",
     "name": "US Dollar",
     "symbol_native": "$",
@@ -7,6 +16,42 @@
     "rounding": 0,
     "code": "USD",
     "name_plural": "US dollars"
+  },
+  {
+    "symbol": "€",
+    "name": "Euro",
+    "symbol_native": "€",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "EUR",
+    "name_plural": "euros"
+  },
+  {
+    "symbol": "£",
+    "name": "British Pound Sterling",
+    "symbol_native": "£",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "GBP",
+    "name_plural": "British pounds sterling"
+  },
+  {
+    "symbol": "¥",
+    "name": "Japanese Yen",
+    "symbol_native": "￥",
+    "decimal_digits": 0,
+    "rounding": 0,
+    "code": "JPY",
+    "name_plural": "Japanese yen"
+  },
+  {
+    "symbol": "S$",
+    "name": "Singapore Dollar",
+    "symbol_native": "$",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "SGD",
+    "name_plural": "Singapore dollars"
   },
   {
     "symbol": "CA$",
@@ -18,13 +63,13 @@
     "name_plural": "Canadian dollars"
   },
   {
-    "symbol": "€",
-    "name": "Euro",
-    "symbol_native": "€",
+    "symbol": "Rs",
+    "name": "Indian Rupee",
+    "symbol_native": "টকা",
     "decimal_digits": 2,
     "rounding": 0,
-    "code": "EUR",
-    "name_plural": "euros"
+    "code": "INR",
+    "name_plural": "Indian rupees"
   },
   {
     "symbol": "AED",
@@ -556,15 +601,6 @@
     "rounding": 0,
     "code": "LBP",
     "name_plural": "Lebanese pounds"
-  },
-  {
-    "symbol": "SLRs",
-    "name": "Sri Lankan Rupee",
-    "symbol_native": "SL Re",
-    "decimal_digits": 2,
-    "rounding": 0,
-    "code": "LKR",
-    "name_plural": "Sri Lankan rupees"
   },
   {
     "symbol": "Lt",

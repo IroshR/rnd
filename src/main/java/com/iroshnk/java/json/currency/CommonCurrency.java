@@ -15,7 +15,7 @@ public class CommonCurrency {
                 objectMapper.getTypeFactory().constructParametricType(List.class, Document.class)
         );
 
-        int i = 2;
+        int i = 1;
         for (Document o : items) {
             //System.out.println(o);
 
