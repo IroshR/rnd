@@ -43,7 +43,7 @@ public class Sample {
             document.append("sss",12);
             //System.out.println(document.toString());
             System.out.println(document.getString("vatExempted"));
-            System.out.println(document.getBoolean("vatExempted"));
+            //System.out.println(document.getBoolean("vatExempted"));
 
             //System.out.println(document.getInteger("sss"));
         }

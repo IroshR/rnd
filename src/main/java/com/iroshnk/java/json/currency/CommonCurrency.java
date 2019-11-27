@@ -1,13 +1,13 @@
 package com.iroshnk.java.json.currency;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+//import com.fasterxml.jackson.databind.ObjectMapper;
 import org.bson.Document;
 
 import java.io.File;
 import java.util.List;
 
 public class CommonCurrency {
-    public static void main(String[] args) throws Exception {
+    /*public static void main(String[] args) throws Exception {
 
         ObjectMapper objectMapper = new ObjectMapper();
         List<Document> items = objectMapper.readValue(
@@ -24,5 +24,5 @@ public class CommonCurrency {
 
             System.out.println(insert);
         }
-    }
+    }*/
 }
